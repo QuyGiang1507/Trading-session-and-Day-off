@@ -1,0 +1,87 @@
+/* ag-grid */
+.ag-watermark {
+  display: none !important;
+}
+.ag-row .ag-cell {
+  display: flex;
+  align-items: center;
+}
+.ag-header{
+  background-color: #f3f6f9bf  !important;
+}
+.ag-root-wrapper {
+  border: none !important; 
+}
+.wpo365-mssignin-wrapper {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 12px 12px 24px 12px;
+  text-align: center;
+}
+/*  */
+
+/* microsoft signin button */
+.wpo365-mssignin-spacearound {
+  display: inline-block;
+}
+.wpo365-mssignin-wrapper form {
+  display: none;
+}
+.wpo365-mssignin-button {
+  border: 1px solid #8c8c8c;
+  background: #ffffff;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  cursor: pointer;
+  max-height: 41px;
+  min-height: 41px;
+  height: 41px;
+}
+.wpo365-mssignin-logo {
+  padding-left: 12px;
+  padding-right: 6px;
+  -webkit-flex-shrink: 1;
+  -moz-flex-shrink: 1;
+  flex-shrink: 1;
+  width: 21px;
+  height: 21px;
+  box-sizing: content-box;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.wpo365-mssignin-label {
+  padding-left: 6px;
+  padding-right: 12px;
+  font-weight: 600;
+  color: #5e5e5e;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  -webkit-flex-shrink: 1;
+  -moz-flex-shrink: 1;
+  flex-shrink: 1;
+  height: 21px;
+  line-height: 21px;
+}
+/*  */

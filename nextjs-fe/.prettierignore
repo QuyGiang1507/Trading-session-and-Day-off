@@ -1,0 +1,14 @@
+# Ignore artifacts:
+build
+coverage
+.gitignore
+.prettierignore
+package-lock.json
+package.json
+.env.default
+.next
+assets
+assets-backup
+Dockerfile
+docker-compose.yml
+.github/workflows/node.js.yml

@@ -1,0 +1,13 @@
+[
+    {
+      "name": "mxs-config",
+      "script": "ts-node",
+      "args": ["--transpile-only", "src/index.ts"],
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": 3000
+      },
+      "instances": "max",
+      "exec_mode": "cluster"
+    }
+  ]

@@ -1,0 +1,26 @@
+{
+  "name": "@mxs/share",
+  "version": "1.0.28",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "clean": "del .\\build\\* /Q /S",
+    "build": "npm run clean && tsc",
+    "pub": "git add . && git commit -m \"Updates\" && git push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^4.0.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "kafkajs": "^2.2.3"
+  }
+}

@@ -1,0 +1,2 @@
+email: test6@gmail.com
+pwd: Password@12

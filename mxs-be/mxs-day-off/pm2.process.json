@@ -1,0 +1,13 @@
+[
+    {
+      "name": "mxs-config",
+      "script": "ts-node",
+      "args": ["--transpile-only", "src/index.ts"],
+      "env_production": {
+        "NODE_ENV": "production"
+      },
+      "env_development": {
+        "NODE_ENV": "development"
+      }
+    }
+  ]
